@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f6f8f9;
+    background-color: #e0e0e0;
     font-family: sans-serif;
 }
 
@@ -69,17 +69,21 @@ nav h1 {
 /* /header */
 
 /* main settings*/
-main section {
+section {
     background-color: #ffffff;
     padding-top: 30px;
     padding-left: 70px;
-    border-radius: 0 0 10px 10px;
 }
 
 main section strong {
     font-size: 20px;
     font-weight: 800;
     color: #484c54;
+}
+
+#margin {
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 40px;
 }
 
 ul {
