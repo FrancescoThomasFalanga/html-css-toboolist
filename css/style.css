@@ -1,0 +1,33 @@
+/* general settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+/* /general settings */
+
+
+/* nav */
+nav {
+    background-color: #ffffff;
+}
+
+nav #logo {
+    height: 80px;
+
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+nav h1 {
+    display: inline-block;
+    line-height: 100px;
+    vertical-align: text-bottom;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+/* /nav */
