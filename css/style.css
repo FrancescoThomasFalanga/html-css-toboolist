@@ -1,4 +1,4 @@
-/* general settings */
+/* settings */
 * {
     padding: 0;
     margin: 0;
@@ -11,12 +11,10 @@ body {
 }
 
 header, main {
-    text-align: left;
-    padding-left: 400px;
-    padding-right: 400px;
-    margin-bottom: 2px;
+    max-width: 1000px;
+    margin: 2px auto;
 }
-/* /general settings */
+/* /settings */
 
 
 /* nav */
@@ -35,7 +33,6 @@ nav h1 {
     line-height: 100px;
     vertical-align: text-bottom;
     font-size: 60px;
-    font-family: sans-serif;
 }
 /* /nav */
 
@@ -44,38 +41,30 @@ nav h1 {
 #settings {
     background-color: #ffffff;
     margin-top: 50px;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 10px;
+    padding: 20px 0px 10px 60px;
     border-radius: 10px 10px 0 0;
 }
 
-.add-task {
+.btn {
     padding: 7px 8px;
     border-radius: 5px;
-    border: none;
-    background-color: #47adf1;
-    color: white;
     cursor: pointer;
 }
 
-.add-section {
-    padding: 7px 8px;
-    border-radius: 5px;
+.add-primary {
+    border-color: #47adf1;
+    background-color: #47adf1;
+    color: white;
+}
+
+.add-secondary {
+    border-color: rgba(0, 0, 0, 0.2);
     background-color: white;
-    border-color: rgba(0, 0, 0, 0.3);
-    border-width: 1px;
     color: rgba(0, 0, 0, 0.3);
-    cursor: pointer;
 }
 /* /header */
 
-/* main settings*/
-section {
-    background-color: #ffffff;
-    padding-top: 30px;
-    padding-left: 70px;
-}
+/* main */
 
 main section strong {
     font-size: 20px;
@@ -83,7 +72,13 @@ main section strong {
     color: #484c54;
 }
 
-#margin {
+section {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+section#margin {
     border-radius: 0 0 10px 10px;
     padding-bottom: 40px;
 }
@@ -93,15 +88,14 @@ ul {
 }
 
 li {
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
     font-size: 18px;
-    font-family: sans-serif;
 }
-/* /main settings*/
+/* /main */
 
 
 /* section settings*/
-.editorial, .q1-goals, .recruiting, .mobile, .website, .sales {
+.badge {
     padding: 4px 8px;
     border-radius: 10px;
     color: white;
@@ -135,23 +129,21 @@ li {
 
 
 /* done and undone*/
-.done {
-    border: solid rgba(0, 255, 0, 0.9) 1px;
+
+.circle {
+    padding: 3px;
     border-radius: 50%;
-    margin-left: -5px;
-    margin-right: 5px;
-    padding: 2px;
+    font-size: 10px;
+    border: solid 1px;
+}
+
+.done {
+    border-color: rgba(0, 212, 0, 0.9);
     color: rgba(0, 212, 0, 0.9);
-    font-size: 12px;
 }
 
 .undone {
-    border: solid rgba(212, 1, 1, 0.9) 1px;
-    border-radius: 50%;
-    margin-left: -5px;
-    margin-right: 5px;
-    padding: 2px;
-    color: rgba(212, 2, 2, 0.9);
-    font-size: 12px;
+    border-color: rgba(212, 1, 1, 0.9);
+    color: rgba(212, 1, 1, 0.9);
 }
 /* /done and undone*/
